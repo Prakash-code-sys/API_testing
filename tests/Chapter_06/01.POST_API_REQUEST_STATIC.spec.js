@@ -29,10 +29,4 @@ test('POST API request',async({request})=>{
     expect(APIResponseJson.booking.lastname).toBe("Raj")
     expect(APIResponseJson.booking.bookingdates.checkin).toBe("2018-01-01")
     expect(APIResponseJson.booking.bookingdates.checkout).toBe("2019-01-01")
-
-
-
-    
-
-
 })
