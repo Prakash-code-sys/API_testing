@@ -6,7 +6,7 @@ const __filename=fileURLToPath(import.meta.url)
 const __dirname=path.dirname(__filename)
 import {faker} from '@faker-js/faker'
 import { formatAPIRequest } from '../../src/utilities/formatAPI'
-//import {POSTAPIRequests} from '../../testData/DYNAMIC_API_request.json' with {type:'json'}
+
 
 test.use({baseURL:process.env.BASE_API_URL})
 
